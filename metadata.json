@@ -1,0 +1,11 @@
+{
+  "description": "Make title bar clock invisible",
+  "name": "InvisiClock",
+  "shell-version": [
+    "3.14",
+    "3.16",
+    "3.18"
+  ],
+  "url": "",
+  "uuid": "InvisiClock@amiller27"
+}
