@@ -21,7 +21,7 @@ var KeyManager = new Lang.Class({
 
     listenFor: function(accelerator, callback){
         log('Trying to listen for hot key [accelerator={}]', accelerator)
-        let action = global.display.grab_accelerator(accelerator)
+        let action = global.display.grab_accelerator(accelerator, 0)
 
         if(action == Meta.KeyBindingAction.NONE) {
             log('Unable to grab accelerator [binding={}]', accelerator)

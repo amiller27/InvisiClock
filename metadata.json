@@ -2,7 +2,7 @@
   "description": "Make title bar clock invisible",
   "name": "InvisiClock",
   "shell-version": [
-    "3.28"
+    "3.36"
   ],
   "url": "https://github.com/amiller27/InvisiClock",
   "uuid": "InvisiClock@amiller27"
